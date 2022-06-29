@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Login .fundal {
+    width: 800px;
+    height: 400px;
+}
+
+.Login .form {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #3CBC8D;
+  color: rgb(149, 21, 21);
+}
+
+.Login .loginbox {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #3cabbc;
+}
+
+.Login .loginbox .emailbox {
+  background-color:rgb(124, 221, 190);
+}
+
+.Login .loginbox .passwordbox {
+  background-color:rgb(124, 221, 190);
+}
+
+.Login .loginbox .submit {
+  color:rgb(124, 221, 190);
+}
+
+
+.Login .loginbox .button {
+    border-radius: 4px;
+    background-color: #9aeff7;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 16px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 12px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+
+.Register .fundal {
+  width: 800px;
+  height: 400px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
