@@ -1,3 +1,12 @@
+# UNFINISHED PROJECT
+
+Auctions System linked with firebase to a realtime database(using firebase libraries and functions) where users can bid in realtime for objects.
+
+Made using React and Node + HTML/CSS
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
